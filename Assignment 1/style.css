@@ -1,0 +1,200 @@
+:root {
+    --background: white;
+    --grey: #A5A5A5;
+    --green: #28A533;
+    --text: black;
+}
+
+* {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+body {
+    background-color: var(--background);
+}
+
+/*====={Switch}=====*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--grey);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--text);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: var(--green);
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--green);
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+/*Section End*/
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+/*====={Navigation Bar}=====*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--background);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: var(--grey);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+  
+li {
+    float: left;
+    width: 10vw;
+}
+  
+li a {
+    display: block;
+    color: var(--text);
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+}
+  
+li a:hover:not(.active) {
+    background-color: var(--grey);
+}
+  
+.active {
+    background-color: var(--green);
+}
+
+label {
+    float: right;
+    margin-top: 7px;
+    rotate: 90deg;
+    transform: scale(70%);
+}
+
+input{
+    width: 35vw;
+    background-color: var(--grey);
+    border: var(--text);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: x-large;
+}
+/*Section End*/
+
+/*====={Right Column}=====*/
+.right {
+    width: 25vw;
+    float: right;
+}
+/*Section End*/
+
+/*====={Grid Layout}=====*/
+.grid-container {
+    display: grid;
+    gap: 50px;
+    margin: 0 auto;
+    grid-auto-columns: auto;
+}
+
+.grid-container div {
+    background-color: var(--background);
+    border-radius: 10px;
+}
+
+.grid-container img {
+    width: 50%;
+    float: left;
+}
+
+.grid-container p {
+    background-color: var(--green);
+    width: 75%;
+    height: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.grid-container h2 {
+    padding-left: 52%;
+    padding-right: 2%;
+}
+
+.grid-container h4 {
+    padding-left: 52%;
+    padding-right: 2%;
+}
+/*Section End*/
