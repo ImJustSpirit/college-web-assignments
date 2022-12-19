@@ -171,7 +171,6 @@ input{
 .column-grid {
     display: grid;
     gap: 50px;
-    margin: 0 auto;
     grid-auto-columns: auto;
 }
 
@@ -212,7 +211,7 @@ input{
 }
 
 .SectionOne {
-    padding: 6%;
+    padding: 0px 6% 5%;
 }
 
 .SectionOne img{
@@ -227,7 +226,6 @@ float: left;
 }
 
 /*====={Grid Layout}=====*/
-
 .grid-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
