@@ -218,7 +218,11 @@ input{
 .SectionOne img{
 width: 10%;
 height: 120px;
+float: left;
 }
 
+.AboutText {
+    float: right;
+}
 
 /*Section End*/
