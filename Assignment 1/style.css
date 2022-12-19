@@ -222,7 +222,16 @@ float: left;
 
 .AboutText {
     text-align: center;
+}
 
+.bar1 {
+    display: flex;
+    text-align: center;
+    background-color: var(--green);
+    width: 75%;
+    height: 10px;
+    float: left;
+    margin-top: 10px;
 }
 
 /*====={Grid Layout}=====*/
