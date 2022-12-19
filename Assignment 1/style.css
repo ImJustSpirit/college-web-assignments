@@ -155,9 +155,9 @@ input{
 }
 /*Section End*/
 
-/*====={Home Column}=====*/
+/*====={Home Columns}=====*/
 .left {
-    width: 75fr;
+    width: 75vw;
     float: left;
 }
 
