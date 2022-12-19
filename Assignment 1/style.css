@@ -162,12 +162,12 @@ input{
 
 /*====={Right Column}=====*/
 .right {
-    width: 25vw;
+    width: 25fr;
     float: right;
 }
 /*Section End*/
 
-/*====={Grid Layout}=====*/
+/*====={Column Grid}=====*/
 .column-grid {
     display: grid;
     gap: 50px;
@@ -207,7 +207,7 @@ input{
 
 /*====={Left Column}=====*/
 .left {
-    width: 74vw;
+    width: 75fr;
     float: left;
 }
 
@@ -226,4 +226,16 @@ float: left;
 
 }
 
+/*====={Grid Layout}=====*/
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.grid-layout > div {
+    background-color: var(--grey);
+    border-radius: 15px;
+}
 /*Section End*/
