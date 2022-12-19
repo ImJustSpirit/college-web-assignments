@@ -185,7 +185,7 @@ input{
     float: left;
 }
 
-.column-grid p {
+.bar {
     background-color: var(--green);
     width: 75%;
     height: 10px;
@@ -222,7 +222,8 @@ float: left;
 }
 
 .AboutText {
-    float: right;
+    text-align: center;
+
 }
 
 /*Section End*/
