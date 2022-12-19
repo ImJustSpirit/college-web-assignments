@@ -168,24 +168,24 @@ input{
 /*Section End*/
 
 /*====={Grid Layout}=====*/
-.grid-container {
+.column-grid {
     display: grid;
     gap: 50px;
     margin: 0 auto;
     grid-auto-columns: auto;
 }
 
-.grid-container div {
+.column-grid div {
     background-color: var(--background);
     border-radius: 10px;
 }
 
-.grid-container img {
+.column-grid img {
     width: 50%;
     float: left;
 }
 
-.grid-container p {
+.column-grid p {
     background-color: var(--green);
     width: 75%;
     height: 10px;
@@ -193,13 +193,32 @@ input{
     margin-top: 10px;
 }
 
-.grid-container h2 {
+.column-grid h2 {
     padding-left: 52%;
     padding-right: 2%;
 }
 
-.grid-container h4 {
+.column-grid h4 {
     padding-left: 52%;
     padding-right: 2%;
 }
+
+/*Section End*/
+
+/*====={Left Column}=====*/
+.left {
+    width: 74vw;
+    float: left;
+}
+
+.SectionOne {
+    padding: 6%;
+}
+
+.SectionOne img{
+width: 10%;
+height: 120px;
+}
+
+
 /*Section End*/
