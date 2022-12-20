@@ -188,7 +188,6 @@ input{
     background-color: var(--green);
     width: 75%;
     height: 10px;
-    float: left;
     margin-top: 10px;
 }
 
