@@ -25,15 +25,13 @@
     <br>
     <br>
     <br>
-    <div class="dropdown">
-        <button>Profile</button>
-        <div class="dropdown-options">
-            <a href="#">Dashboard</a>
-            <a href="#">Setting</a>
-            <a href="#">Logout</a>
-        </div>
-    </div>  
-    <div class="grid-layout" style="grid-template-columns: 1fr 1fr 1fr 1fr; margin: 0 3%;">
+    <select>
+        <option value="newest" label="Newest">Newest</option>
+        <option value="oldest" label="Oldest">Oldest</option>
+        <option value="alphabetical" label="Alphabetical">Alphabetical</option>
+        <option value="reverse_alphabetical" label="Reverse Alphabetical">Reverse Alphabetical</option>
+    </select>      
+    <div class="grid-layout" style="grid-template-columns: 1fr 1fr 1fr 1fr; margin: 0 3%; float: right;">
         <div>
             <img src="Assets/placeholderscreen.png" alt="Placeholder">
             <h1>Article Name</h1>
