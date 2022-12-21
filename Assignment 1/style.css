@@ -293,10 +293,17 @@ select {
     background-color:antiquewhite;
 }
 
+hr {
+    border: 5px solid var(--background);
+}
+
 /* Dropdown */
 .dropdown1 {
     position: relative;
     display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
   }
   
 .dropdown1-button {
@@ -334,15 +341,15 @@ select {
 }
 
 .dropdown1 details summary {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--grey);
+    color: var(--text);
     padding: 12px;
     font-size: 16px;
     cursor: pointer;
 }
   
 .dropdown1 details p {
-    background-color: #ccc;
+    background-color: var(--background);
     margin: 0;
     padding: 12px;
 }
