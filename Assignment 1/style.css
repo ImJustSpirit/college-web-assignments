@@ -283,7 +283,7 @@ select {
 }
 /*Section End*/
 
-/*=== =={Contact Form}=====*/
+/*====={Contact Form}=====*/
 form {
     background-color: var(--grey);
     border: var(--text);
@@ -302,12 +302,16 @@ input {
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
-    width: 45vw;
+    width: 48vw;
     margin: auto;
     display: block;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 label {
-
+    font-size: 24px;
+    font-weight: 600;
 }
 /*Section End*/

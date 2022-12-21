@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="margin: auto; display: block;">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="reviews.html">Reviews</a></li>
@@ -33,6 +33,19 @@
     <br><br>
     <h1>Customer Support</h1>
     <p class="bar"></p>
+    <br>
+    <h3 style="display: block; margin: auto; width: 50vw;">If you need to get in contact with us, please fill out the form below:</h3>
+    <form>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="name">Full name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="body">Quierie:</label><br>
+        <input type="text" id="textArea" name="body" style="height: 200px;"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
     <script src="app.js"></script>
 </body>
 </html>
