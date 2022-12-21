@@ -278,7 +278,6 @@ select {
 
 .right1 {
     width: 45%;
-    display: flex;
     float: right;
     background-color:antiquewhite;
 }
