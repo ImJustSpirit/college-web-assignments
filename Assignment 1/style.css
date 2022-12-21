@@ -190,6 +190,9 @@ li a:hover:not(.active) {
     height: 10px;
     float: left;
     margin-top: 10px;
+    margin: auto;
+    display: block;
+
 }
 
 .column-grid h2 {
@@ -269,14 +272,15 @@ select {
 
 .left1 {
     width: 45%;
-    display: flex;
     float: left;
+    background-color:antiquewhite;
 }
 
 .right1 {
     width: 45%;
     display: flex;
     float: right;
+    background-color:antiquewhite;
 }
 /*Section End*/
 
