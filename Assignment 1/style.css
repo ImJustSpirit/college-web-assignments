@@ -80,6 +80,7 @@ input:checked + .slider:before {
 }
 /*Section End*/
 
+/*====={Global}=====*/
 h1 {
     font-size: 32px;
     font-weight: 700;
@@ -99,6 +100,16 @@ h3 {
 h4 {
     font-size: 12px;
 }
+
+.bar {
+    background-color: var(--green);
+    width: 75%;
+    height: 10px;
+    margin-top: 10px;
+    margin: auto;
+    display: block;
+}
+/*Section End*/
 
 /*====={Navigation Bar}=====*/
 ul {
@@ -136,22 +147,11 @@ li a:hover:not(.active) {
     background-color: var(--green);
 }
 
-label {
+.switch {
     float: right;
     margin-top: 7px;
     rotate: 90deg;
     transform: scale(70%);
-}
-
-input{
-    width: 35vw;
-    background-color: var(--grey);
-    border: var(--text);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
-    margin: 5px;
-    font-size: x-large;
 }
 /*Section End*/
 
@@ -184,10 +184,11 @@ input{
     float: left;
 }
 
-.bar {
+.column-grid p {
     background-color: var(--green);
     width: 75%;
     height: 10px;
+    float: left;
     margin-top: 10px;
 }
 
@@ -277,3 +278,33 @@ select {
     display: flex;
     float: right;
 }
+/*Section End*/
+
+/*=== =={Contact Form}=====*/
+form {
+    background-color: var(--grey);
+    border: var(--text);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 50vw;
+    margin: auto;
+    display: block;
+    padding: 1vw;
+}
+
+input {
+    background-color: var(--background);
+    border: var(--text);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 45vw;
+    margin: auto;
+    display: block;
+}
+
+label {
+
+}
+/*Section End*/
