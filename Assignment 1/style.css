@@ -255,3 +255,25 @@ select {
 /*Section End*/
 
 /*====={About Page}=====*/
+.AboutUsTitle {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.FAQsTitle {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.left1 {
+    width: 45%;
+    display: flex;
+    float: left;
+}
+
+.right1 {
+    width: 45%;
+    display: flex;
+    float: right;
+}
