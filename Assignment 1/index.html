@@ -12,16 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <label class="switch">
-            <input type="checkbox" id="button" onclick="myFunction_set()">
-            <span class="slider round"></span>
-        </label>
-    </ul>
+    <nav>
+        <ul class="bigNav">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="navigation">
+            <div class="toggle"><span></span></div>
+            <ul class="smallNav">
+                <li style="--i:0;"><a href="index.html">Home</a></li>
+                <li style="--i:1;"><a href="reviews.html">Reviews</a></li>
+                <li style="--i:2;"><a href="about.html">About</a></li>
+                <li style="--i:3;"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script>
+            let navigation = document.querySelector('.navigation');
+            document.querySelector('.toggle').onclick = function(){
+                this.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+    </nav>
     <br><br><br>
     <div class = "left">
         <div class = "SectionOne">
