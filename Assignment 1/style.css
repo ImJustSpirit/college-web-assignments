@@ -112,6 +112,11 @@ h4 {
     margin: auto;
     display: block;
 }
+
+nav {
+    z-index: 100;
+    position: absolute;
+}
 /*Section End*/
 
 /*====={Big Navigation Bar}=====*/
@@ -340,11 +345,17 @@ float: left;
 }
 
 .ReadMoreButton {
-    display: flex;
+    display: block;
     justify-content: center;
     border-radius: 15px;
-    margin: 5px;
+    margin: auto;
+    background-color: #28A533;
+    border: none;
+    padding: 8px 30px;
+    color: #2b1055;
+    font-size: 1.5em;
 }
+
 /*Section End*/
 
 /*====={Grid Layout}=====*/
@@ -510,6 +521,18 @@ label {
     font-weight: 600;
 }
 /*Section End*/
+
+
+/*====={Dummy Review}=====*/
+
+.tloulogo {
+    position: relative;
+    z-index: 50; 
+    width: 50%; 
+    padding-top: 450px; 
+    display: block;
+    margin: auto;
+}
 
 /*====={Media Queries}=====*/
 @media only screen and (min-width: 1200px) {
