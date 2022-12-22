@@ -220,6 +220,13 @@ float: left;
 .AboutText {
     text-align: center;
 }
+
+.ReadMoreButton {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 5px;
+}
 /*Section End*/
 
 /*====={Grid Layout}=====*/
@@ -284,13 +291,11 @@ select {
 .left1 {
     width: 45%;
     float: left;
-    background-color:antiquewhite;
 }
 
 .right1 {
     width: 45%;
     float: right;
-    background-color:antiquewhite;
 }
 
 hr {
