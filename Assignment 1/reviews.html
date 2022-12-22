@@ -12,16 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="reviews.html">Reviews</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <label class="switch">
-            <input type="checkbox" id="button" onclick="myFunction_set()">
-            <span class="slider round"></span>
-        </label>
-    </ul>
+    <nav>
+        <ul class="bigNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="reviews.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="navigation">
+            <div class="toggle"><span></span></div>
+            <ul class="smallNav">
+                <li style="--i:0;"><a href="index.html">Home</a></li>
+                <li style="--i:1;"><a href="reviews.html">Reviews</a></li>
+                <li style="--i:2;"><a href="about.html">About</a></li>
+                <li style="--i:3;"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script>
+            let navigation = document.querySelector('.navigation');
+            document.querySelector('.toggle').onclick = function(){
+                this.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+    </nav>
     <br><br><br>
     <select>
         <option value="newest" label="Newest">Newest</option>
@@ -29,7 +43,7 @@
         <option value="alphabetical" label="Alphabetical">Alphabetical</option>
         <option value="reverse_alphabetical" label="Reverse Alphabetical">Reverse Alphabetical</option>
     </select>      
-    <div class="grid-layout" style="grid-template-columns: 1fr 1fr 1fr 1fr; margin: 0 3%; float: right;">
+    <div class="grid-layout" style="margin: 0 3%; float: right;">
         <div>
             <img src="Assets/placeholderscreen.png" alt="Placeholder">
             <h1>Article Name</h1>
