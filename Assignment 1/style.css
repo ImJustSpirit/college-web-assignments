@@ -117,6 +117,10 @@ nav {
     z-index: 100;
     position: absolute;
 }
+
+a {
+    text-decoration: none;
+}
 /*Section End*/
 
 /*====={Big Navigation Bar}=====*/
