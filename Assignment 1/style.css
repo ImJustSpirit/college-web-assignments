@@ -540,12 +540,11 @@ label {
 
 /*====={Media Queries}=====*/
 @media only screen and (min-width: 1200px) {
-    .slider::before {background-color: red}
     div.navigation {display: none;}
     .hide {display: none;}
 }
+
 @media only screen and (min-width: 650px) and (max-width: 1200px) {
-    .slider::before {background-color: blue}
     ul.bigNav {display: none;}
     .grid-layout {grid-template-columns: 1fr 1fr;}
     select {width: 45%;}
@@ -563,8 +562,8 @@ label {
     .lastGrid {display: none;}
     .LogoPlaceholder {display: none;}
 } 
+
 @media only screen and (max-width: 650px) {
-    .slider::before {background-color: green}
     ul.bigNav {display: none;}
     .grid-layout {grid-template-columns: 1fr;}
     select {width: 94%;}
